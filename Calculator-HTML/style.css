@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
-
+/*  code by Drago  */
 *,
 *::before,
 *::after {
@@ -21,7 +21,7 @@ body {
     height: inherit;
     justify-content: center;
 }
-
+/*  code by Drago  */
 .wrapper {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     margin: 5% 0;
 }
-
+/*  code by Drago  */
 .calc-button {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -92,7 +92,7 @@ body {
 .calc-button:hover {
     background-color: inherit;
 }
-
+/*  code by Drago  */
 .calc-button:active {
     background-color: #ffef78;
 }
@@ -104,3 +104,4 @@ body {
 .triple{
     flex-basis: 73%;
 }
+/*  code by Drago  */
