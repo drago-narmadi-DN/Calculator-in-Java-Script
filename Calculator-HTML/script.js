@@ -1,9 +1,10 @@
+// code by Drago 
 let runningTotal = 0;
 let buffer = "0";
 let previousOperator;
 
 const screen = document.querySelector('.screen');
-
+// code by Drago 
 function buttonClick(value) {
     if (isNaN(value)) {
         handleSymbol(value);
@@ -45,7 +46,7 @@ function handleSymbol(symbol) {
             break;
     }
 }
-
+// code by Drago 
 function handleMath(symbol) {
     if (buffer === '0') {
         return;
@@ -85,5 +86,5 @@ function init() {
         buttonClick(event.target.innerText);
     });
 }
-
+// code by Drago 
 init();
